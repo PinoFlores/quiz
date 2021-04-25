@@ -1,0 +1,31 @@
+.online-users-container {
+  padding: 0.5rem;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+
+  .online-user-btn {
+    .user-item {
+      margin-right: 10px;
+    }
+  }
+
+  &::-webkit-scrollbar {
+    height: 4px !important;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: #000;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: #1da0f270;
+  }
+
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: #1da1f2;
+  }
+}

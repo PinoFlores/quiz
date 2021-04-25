@@ -9,9 +9,6 @@ import store from './store/store';
 import { HelmetProvider } from 'react-helmet-async';
 import reportWebVitals from 'reportWebVitals';
 
-// ! IMPORTANT
-// TODO Fix all env url.
-
 // Initialize languages
 import './locales/i18n';
 
